@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: bor;
+}
+section {
+    width: 100vw;
+    padding: 10px;
+    padding: 0;
+}
+.before-navlist {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgb(230, 226, 226);
+}
+
+.first {
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+}
+.first a {
+    text-decoration: none;
+}
+
+.after-navlist {
+    display: flex;
+}
+
+nav.new  {
+    display: flex;
+    list-style-type: none;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+nav.new li {
+    font-size: 20px;
+}
+
+.new a {
+    text-decoration: none;
+    gap: 10px;
+}
+
+.logo {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.First-news {
+    display: flex;
+    width: 100%;
+}
+
+.first-news-left { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.first-news-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-news-right-top {
+    display: flex;
+}
+
+.flex-news-one {
+    background: url(grid-news-one-image.jpg) no-repeat;
+}
+
+.flex-news-four {
+    background: url(grid-news-four-image.jpg) no-repeat;
+    width: 50%;
+}
+
+.flex-news-two {
+    background: url(grid-news-two-image.jpg) no-repeat;
+    width: 50%;
+}
+
+.flex-news-three {
+    background: url(grid-news-three-image.jpg) no-repeat;
+    width: 50%;
+}
+
+.flex-news-five {
+    background: url(grid-news-five-image.jpg) no-repeat;
+}
